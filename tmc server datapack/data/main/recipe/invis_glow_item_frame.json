@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:glow_item_frame"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:glow_item_frame",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:glow_item_frame",
+        "CustomName": "Invisible Glow Item Frame",
+        "CustomNameVisible": true,
+        "Invisible": true
+      },
+      "minecraft:item_name": "Invisible Glow Item Frame",
+      "minecraft:enchantment_glint_override": true
+    },
+    "count": 1
+  }
+}

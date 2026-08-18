@@ -1,0 +1,15 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 20
+  },
+  "gives": {
+    "id": "minecraft:player_head",
+    "components": {
+      "minecraft:profile": {
+        "name": "MHF_Present2"
+      }
+    },
+    "count": 1
+  }
+}

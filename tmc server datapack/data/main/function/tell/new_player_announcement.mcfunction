@@ -1,0 +1,3 @@
+tellraw @a [{text: "Everybody please welcome ", color: "#0073d1"}, {selector: "@s", color: "gold", bold: true}," to the server!"]
+tellraw @s [{text: "\n"}, {text:" Welcome to the official UCSD Minecraft Club Server! Join our Discord ", color: "green", bold: false}, {text: "[here]", bold: true, click_event: {action:"open_url",url:"https://discord.gg/Cuzj95syy"}, hover_event: {action:"show_text", value: "Invite to Discord"}, color: "gold"}, {text:" for club news, text, and voice chat.", bold: false, color: green}]
+execute at @s run playsound entity.player.levelup master @s

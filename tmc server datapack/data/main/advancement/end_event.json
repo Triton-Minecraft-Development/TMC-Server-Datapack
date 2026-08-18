@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_portal_frame"
+    },
+    "title": "The End Badge",
+    "description": "Attended the Fall 2025 End Opening Event (placeholder)",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "main:tmc",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:used_ender_eye"
+    }
+  }
+}
